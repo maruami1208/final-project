@@ -1,0 +1,182 @@
+.orb {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 24.7px;
+    transition: all .2s ease-out;
+  }
+  
+  .orb:hover {
+    transform: scale(1.2);
+    opacity: .5;
+    cursor: pointer;
+  }
+  
+  .marquee {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+
+  }
+  
+  .marquee--inner {
+    display: block;
+    width: 350%;
+    margin: 70px 0;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+  }
+  
+  .marquee--inner:hover {
+    animation-play-state: paused;
+  }
+  
+ .inn-pay {
+    float: left;
+    width: 33%;
+  }
+  .hexa{
+    width: 71px;
+    height: 24px;
+  }
+  .circle{
+    width: 86px;
+    height: 24px;
+  }
+  .kanba{
+    width: 86px;
+    height: 24px;
+  }
+  .aven{
+    width: 80px;
+    height: 24px;
+  }
+  .liua{
+    width: 60px;
+    height: 24px;
+  }
+  .fox-hub{
+    width: 103px;
+    height: 24px;
+  }
+  .goldline{
+    width: 103px;
+    height: 24px;
+  }
+  .earth{
+    width: 101px;
+    height: 24px;
+  }
+  .asgardia{
+    width: 102px;
+    height: 24px;
+  }
+  
+  @keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
+  @media (min-width:1400px){
+
+    .inn-pay {
+      float: left;
+      width: 29%;
+    }
+
+  }
+  @media (max-width:1199px){
+    .inn-pay {
+      float: left;
+      width: 40%;
+  }
+  }
+
+  @media (max-width:991px){
+    .inn-pay{
+      float: left;
+      width: 49%;
+    }
+    .orb {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      margin: 0 38.7px;
+      transition: all .2s ease-out;
+    }
+  }
+  @media (max-width:767px){
+    .marquee--inner {
+      display: block;
+      width: 471%;
+      margin: 70px 0;
+      position: absolute;
+      animation: marquee 10s linear infinite;
+    }
+
+  }
+  @media (max-width:575px){
+.content-pay{
+  padding-top: 670px;
+}
+.marquee--inner {
+  display: block;
+  width: 500%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 10s linear infinite;
+}
+  }
+  @media (max-width:561px){
+    .content-pay{
+      padding-top: 940px;
+    }
+      }
+      @media (max-width:552px){
+        .marquee--inner {
+          display: block;
+          width: 540%;
+          margin: 70px 0;
+          position: absolute;
+          animation: marquee 10s linear infinite;
+        }
+      }
+
+      @media (max-width:511px){
+        .marquee--inner {
+          display: block;
+          width: 560%;
+          margin: 70px 0;
+          position: absolute;
+          animation: marquee 10s linear infinite;
+        }
+      }
+      @media (max-width:493px){
+        .marquee--inner {
+          display: block;
+          width: 590%;
+          margin: 70px 0;
+          position: absolute;
+          animation: marquee 10s linear infinite;
+        }
+      }
+            @media (max-width:468px){
+        .marquee--inner {
+          display: block;
+          width: 740%;
+          margin: 70px 0;
+          position: absolute;
+          animation: marquee 10s linear infinite;
+        }
+      }
+      @media (max-width:402px){
+        .content-pay{
+          padding-top: 1040px;
+        }
+          }
+                @media (max-width:390px){
+        .content-pay{
+          padding-top: 1200px;
+        }
+          }
